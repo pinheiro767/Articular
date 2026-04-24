@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Visualizador de PDF</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
+<meta name="theme-color" content="#000000">
+
+</head>
+
+<body>
+
+<header>
+<h1>Visualizador de Aula</h1>
+<button id="installBtn">Instalar App</button>
+</header>
+
+<main>
+
+<iframe
+    src="pdf/aula.pdf"
+    id="pdfViewer"
+    frameborder="0">
+</iframe>
+
+</main>
+
+<script src="app.js"></script>
+
+</body>
+</html>
